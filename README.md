@@ -17,8 +17,7 @@ The setup is easy and straightforward. The demo leverage the docker engine to ru
 
 **Instructions**
 1. Launch a VM on AWS.
-2. SCP the `prod/setup` directory to the VM or directly clone the repo from the VM.
-3. tar czf setup.tar.gz prod/setup 
+2. SCP the `setup` directory to the VM or directly clone the repo from the VM.
 4. Install Docker.
 5. Start the MongoDB and Kafka containers using Docker Compose.
 6. Connect to the MongoDB container and create a sink connector.
