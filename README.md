@@ -59,16 +59,17 @@ The setup is easy and straightforward. The demo leverage the docker engine to ru
     "collection": "<Name of on-prem MongoDB collection>"
   }
 }
-```    
+```
+ 
     * Start the sink connector from the configuration file: `cx simple_sink.json`
     * OPTIONAL: To connect to the local mongodb, run: `mongosh "mongodb://mongo1"`
 
-1. Start the kafka producer application to produce data to the local MongoDB instance.
+7. Start the kafka producer application to produce data to the local MongoDB instance.
     * Navigate to the `/home/app` directory.
     * Update `producer.py` to reflect the topic name at you have configured in the connector.c
     * Run the following command to start the producer application:
         `python3 producer.py action=produce`
-2. Start the mongosync process to synchronize the data from the local MongoDB instance to the MongoDB Atlas cluster.
+8. Start the mongosync process to synchronize the data from the local MongoDB instance to the MongoDB Atlas cluster.
     * Run the following command to start the mongosync process:
         `./bin/mongosync \
               --cluster0 "mongodb://mongo1" \
