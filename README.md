@@ -91,4 +91,4 @@ To stop the mongosync process, press `Ctrl`+`C` in the terminal window where it 
 
 **Troubleshooting**
 
-If you are having problems with the demo, please consult the @yberrada for assistance.
+If you are having problems with the demo, please reach out to @yberrada for assistance.
