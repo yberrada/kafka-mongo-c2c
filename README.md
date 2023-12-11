@@ -45,7 +45,8 @@ The setup is easy and straightforward. The demo leverage the docker engine to ru
         `sudo docker exec -it mongo1 bin/bash`
     * Configure the sink connector found in : `/home/sink_connectorn`
   
-  ```{
+  ```
+{
   "name": "mongo-tutorial-sink",
   "config": {
     "connector.class": "com.mongodb.kafka.connect.MongoSinkConnector",
@@ -57,7 +58,8 @@ The setup is easy and straightforward. The demo leverage the docker engine to ru
     "database": "<Name of on-prem MongoDB database>",
     "collection": "<Name of on-prem MongoDB collection>"
   }
-}```    
+}
+```    
     * Start the sink connector from the configuration file: `cx simple_sink.json`
     * OPTIONAL: To connect to the local mongodb, run: `mongosh "mongodb://mongo1"`
 
