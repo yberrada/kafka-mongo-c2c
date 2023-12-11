@@ -1,0 +1,5 @@
+pymongo==4.2.0
+kafka-python==2.0.2
+faker
+confluent_kafka
+
