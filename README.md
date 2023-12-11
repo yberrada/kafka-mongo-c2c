@@ -1,7 +1,7 @@
 # END TO END DEMO: KAFKA -> MONGODB(ON-PREM) -> C2C -> MONGODB (ATLAS)
 
 This is and end to end demo that showcases the following:
-- Application producing messages on a **on-prem Kafka broker**. 
+- Application producing messages to a **on-prem Kafka broker**. 
 - On-prem Kafka Connector setup
 - On-prem MongoDB deployment (1 node RS)
 - Syncing Data to an Atlas cluster using C2C sync.
