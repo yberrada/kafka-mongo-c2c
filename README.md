@@ -5,6 +5,7 @@ This is and end to end demo that showcases the following:
 - On-prem Kafka Connector setup
 - On-prem MongoDB deployment (1 node RS)
 - Syncing Data to an Atlas cluster using C2C sync.
+![alt text](./public/architecture.jpeg) 
 
 The setup is easy and straightforward. The demo leverage the docker engine to run all these components on the same host. 
 
