@@ -43,7 +43,7 @@ The setup is easy and straightforward. The demo leverage the docker engine to ru
 6. Connect to the MongoDB container and create a sink connector.
    * Run the following command to connect to the MongoDB container:
         `sudo docker exec -it mongo1 bin/bash`
-    * Configure the sink connector found in : `/home/sink_connectorn`
+   * Configure the sink connector found in : `/home/sink_connectorn`
   
   ```
 {
@@ -61,8 +61,8 @@ The setup is easy and straightforward. The demo leverage the docker engine to ru
 }
 ```
  
-    * Start the sink connector from the configuration file: `cx simple_sink.json`
-    * OPTIONAL: To connect to the local mongodb, run: `mongosh "mongodb://mongo1"`
+ * Start the sink connector from the configuration file: `cx simple_sink.json`
+ * OPTIONAL: To connect to the local mongodb, run: `mongosh "mongodb://mongo1"`
 
 7. Start the kafka producer application to produce data to the local MongoDB instance.
     * Navigate to the `/home/app` directory.
