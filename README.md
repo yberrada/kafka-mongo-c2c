@@ -61,8 +61,8 @@ The setup is easy and straightforward. The demo leverage the docker engine to ru
 }
 ```
  
- * Start the sink connector from the configuration file: `cx simple_sink.json`
- * OPTIONAL: To connect to the local mongodb, run: `mongosh "mongodb://mongo1"`
+  * Start the sink connector from the configuration file: `cx simple_sink.json`
+  * OPTIONAL: To connect to the local mongodb, run: `mongosh "mongodb://mongo1"`
 
 7. Start the kafka producer application to produce data to the local MongoDB instance.
     * Navigate to the `/home/app` directory.
